@@ -1,0 +1,553 @@
+/* CSS Reset  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* font styling
+font-family: 'Anybody', cursive;
+font-family: 'Solway', serif; */
+
+/* navbar styling */
+
+#navbar {
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #d1d1d14d;
+}
+
+.name-logo {
+    font-size: 1.5rem;
+    font-family: 'Kalam', cursive;
+    color: #120f2abf;
+    text-shadow: -1px 3px 4px #a9a9a9;
+    padding-left: 5px;
+}
+
+.box {
+    font-family: 'Solway', serif;
+    /* border: 3px solid red; */
+}
+
+.box ul li a {
+    font-size: 1.5rem;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.box ul li a:hover {
+    color: #a77171;
+}
+
+.box ul li i {
+    color: #55545cc9;
+}
+
+.box ul li {
+    list-style: none;
+}
+
+.box ul {
+    display: flex;
+}
+
+/* ########################### home section style */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 200px;
+    height: 496px;
+}
+
+#home::before {
+    content: "";
+    background: url('../Image/main2.jpg')no-repeat fixed center center/cover;
+    width: 100%;
+    top: 39px;
+    left: 0px;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.84;
+    position: absolute;
+
+}
+
+.h-primary {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Kalam', cursive;
+    color: white;
+    text-shadow: 8px 7px 4px #626262;
+    line-height: 80px;
+}
+
+#home p {
+    color: #000000bf;
+    font-family: 'Kalam', cursive;
+    font-size: 1.2rem;
+    margin-bottom: 28px;
+}
+
+.btn {
+    background-image: linear-gradient(to right, #000000c4, #a77171);
+    border: none;
+    width: 24%;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    background-color: white;
+    font-family: 'Solway', serif;
+    border-radius: 27px;
+    box-shadow: 3px 4px 3px #b9b9b9;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* ############################# select-Your-Destination */
+
+#select-Your-Destination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(134 235 212), rgb(165 165 165 / 8%));
+}
+
+.tour {
+    align-items: center;
+    display: flex;
+}
+
+.items {
+    margin: 0px 10px;
+}
+
+.items h1 {
+    font-size: 2.2rem;
+    font-family: 'Solway', serif;
+    color: #5e5e5e;
+}
+
+.items input {
+    margin: 8px;
+    border-radius: 4px;
+    padding: 0px 8px;
+    height: 50px;
+    color: #5e5e5e;
+    width: 171px;
+    font-size: 1.5rem;
+    border: 2px solid #6c6c6c;
+}
+
+#travel-type {
+    border-radius: 4px;
+    padding: 0px 8px;
+    height: 50px;
+    color: #5e5e5e;
+    ;
+    width: 171px;
+    font-size: 1.5rem;
+    border: 2px solid #6c6c6c;
+}
+
+.btn2 {
+    border-radius: 4px;
+    padding: 0px 8px;
+    height: 50px;
+    color: #5e5e5e;
+    width: 171px;
+    font-size: 1.5rem;
+    border: 2px solid #6c6c6c;
+    background-color: #ebf3a5;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: #22bb272b;
+}
+
+/*######################### Popular-Destination section Styleing */
+
+#Popular-Destination {
+    display: block;
+    background-image: linear-gradient(to right,black green);
+    text-align: center;
+    margin-top: 60px;
+}
+
+#Popular-Destination p {
+    line-height: 31px;
+    color: #9f9f9f;
+    font-size: 1.2rem;
+    font-family: 'Anybody', cursive;
+}
+
+#Popular-Destination h1 {
+    color: #464646;
+    font-size: 3.2rem;
+    margin-bottom: 12px;
+    font-family: 'Solway', serif;
+}
+
+/*################### Box styling */
+.popular-city {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+    flex-wrap: wrap;
+    padding: 0px 44px;
+}
+
+.single-cities {
+    margin: 0px 16px;
+    /* border: 3px solid green; */
+    height: 220px;
+    width: 342px;
+    margin-bottom: 32px;
+}
+
+h4 {
+    border: 2px solid black;
+}
+
+
+/*################################## Subscribe-section Styling */
+
+#subscribe-section {
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid black; */
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(149, 149, 149, 0.12), rgb(15 58 122 / 72%));
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 400px;
+}
+
+.subscribe h1 {
+    margin-right: 46px;
+    font-size: 2.2rem;
+    font-family: 'Solway', serif;
+    color: rgb(0, 0, 0);
+}
+
+.subscribe p {
+    line-height: 31px;
+    color: #000000;;
+    font-size: 1.2rem;
+    font-family: 'Anybody', cursive;
+}
+
+.subscribe .btn2 {
+    width: 170px;
+    height: 54px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px double black;
+    color: white;
+}
+.subscribe .btn2:hover {
+    background-color: rgb(159 22 53 / 72%);
+    border: 2px double black;
+    color: white;
+}
+
+
+.subscribe input {
+    border-radius: 4px;
+    height: 50px;
+    width: 271px;
+    font-size: 1.5rem;
+    border: 2px solid #000000;
+    background-color: #ffffff00;
+}
+/* #subscribe-section::before{
+    content: "";
+    background: url('../Image/sub3.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.84;
+} */
+
+
+/* ################### ################### Popular places */
+
+#Popular-place-section {
+    display: block;
+    margin-top: 60px;
+
+}
+
+#Popular-place-section p {
+    line-height: 31px;
+    color: #9f9f9f;
+    font-size: 1.2rem;
+    font-family: 'Anybody', cursive;
+    text-align: center;
+}
+
+#Popular-place-section h1 {
+    color: #464646;
+    font-size: 3.2rem;
+    margin-bottom: 12px;
+    font-family: 'Solway', serif;
+    text-align: center;
+}
+
+/*################### popular Box styling */
+.popular-place {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+    flex-wrap: wrap;
+    padding: 0px 44px;
+}
+
+.popular-cities {
+    margin: 0px 16px;
+    /* border: 3px solid green; */
+    height: 279px;
+    width: 350px;
+    margin-bottom: 32px;
+}
+
+.popular-cities img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 81%;
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    opacity: 0.84;
+    border-radius: 8px;
+}
+.popular-cities .btn2{
+    position: absolute;
+    margin: 9px;
+    width: 73px;
+    height: 36px;
+    background-color: #00ffe700;;
+    color: black;
+    font-size: 1rem;
+    border-radius: 20px;
+    /* font-weight: bold; */
+}
+.popular-cities .btn2:hover{
+     background-color: red;
+     color: white;
+}
+
+.popular-cities h2 {
+    padding: 0px 15px;
+    color: #153a3c99;
+    font-size: 1.5rem;
+    font-family: 'Anybody', cursive;
+    text-align:initial;
+}
+.checked {
+    display: inline-block;
+    color: orange;
+    font-size: 10px;
+}
+.star-rating:first-of-type{
+    padding-left: 15px;
+}
+.review{
+    font-size: 1rem;
+    font-size: 'Anybody', cursive;
+    color: #898484;
+}
+
+#more-places-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.More-Places-btn{
+    margin-top: 44px;
+    border: none;
+    padding: 6px;
+    font-size: 1.5rem;
+    color: #0e8febb8;
+    background-color: transparent;
+    font-family: 'Solway', serif;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-top: 2px solid #103bb7;
+    border-left: 2px solid #bfb543;
+    border-bottom: 2px solid #d72424;
+    border-right: 2px solid #000000;
+    margin-bottom: 5rem;
+}
+.More-Places-btn:hover{
+     background-color: lightsalmon;
+     color: white;
+}
+
+
+/* ####################### service-section styling  */
+
+#service-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(to right, #92e999a1 , #f7f7f7b0);
+}
+
+.services{
+    margin-top: 1rem;
+    /* border: 3px solid green; */
+    text-align: center;
+    color: #363636;
+    font-family: 'Solway', serif;
+    padding: 34px;
+}
+.services p{
+    color: #838383;
+}
+.services h1{
+    line-height: 61px;
+}
+.fa-train,.fa-hotel,.fa-globe{
+    animation: down 1s  infinite;
+    animation-delay: 2s;
+}
+
+@keyframes down {
+    0%{
+      color:  rgb(118 71 71 / 0%);
+      transform: rotate(0deg);
+    }
+    100%{
+        color: rgb(226 52 52);
+        transform: rotate(360deg);
+    }
+} 
+
+
+/* ##################### contact-Us-section styling  */
+ 
+#contact-Us-section{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 3px solid black; */
+    background-image: linear-gradient(to right,#000000f0,#1f4636);
+    height: 100%;
+}
+.contact-us{
+    color: white;
+    /* border: 2px solid yellow; */
+    font-family: 'Solway', serif;
+}
+
+/*### ul , li , a Styling  */
+.contact-us ul li a{                     
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 37px;
+}
+.contact-us ul li a:hover{
+    color:  #c1bd44;;
+}
+.contact-us ul{
+    list-style: none;
+    text-align: center;
+}
+
+/* ############# */
+
+.contact-us h1{
+    color: white;
+    font-size: 1.7rem;
+    line-height: 73px;
+}
+.contact-us p{
+    color: white;
+    font-size: 1.2rem;
+}
+.number{
+     line-height: 35px;
+}
+
+#footer-section{
+    /* border: 3px solid green; */
+    background-image: linear-gradient(to right, #e3e3e36b ,#7effed82);
+}
+footer{
+    color: black;
+    /* border: 3px solid brown; */
+    text-align: center;
+    font-family: 'Solway', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Utilites classes */
+
+.single-cities img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 4px 4px 9px #898484;
+}
+
+.single-cities h2 {
+    padding: 98px 109px;
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Anybody', cursive;
+}
